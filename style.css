@@ -1,0 +1,86 @@
+html {
+  background-color: black;
+
+}
+
+body, a {
+  color: white;
+}
+
+.playButton {
+  position: absolute;
+  height: 50px;
+  top: 15px;
+}
+
+h1 {
+  position: relative;
+  margin-left: 60px;
+}
+
+nav {
+  /* position: relative;
+
+  margin-bottom: auto; */
+  display: flex;
+flex-direction: column;
+}
+
+.homeButton {
+top: 0;
+z-index: 10;
+}
+
+iframe {
+  position: relative;
+
+}
+
+/* table th {
+  border: 5px solid white;
+} */
+
+
+
+th {
+  min-width: 100px;
+  max-width: 562px;
+  vertical-align: top
+}
+
+h3 {
+  margin-left: 100px;
+}
+
+.form {
+  /* position: relative; */
+  text-align: left;
+  padding-left: 100px;
+}
+
+.formTitle {
+  text-align: center;
+  margin-left: 0px;
+}
+
+.searchBar {
+  position: absolute;
+  top: 30px;
+  left: 350px;
+  width: 350px;
+  border: solid grey 0.1px;
+  background-color: black;
+  border-radius: 15px;
+  padding: 5px 5px 5px 25px;
+}
+
+.searchButton {
+  position: absolute;
+  height: 20px;
+  left: 700px;
+  top: 33px;
+}
+
+.searchBar::placeholder {
+  color: grey;
+}
