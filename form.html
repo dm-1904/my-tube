@@ -59,35 +59,35 @@
 
       <h1 class="formTitle">Add New Video</h1>
 
-      <label for="title"><strong>Video Title</strong></label><br>
+      <label class="videoTitle" for="title"><strong>Video Title</strong></label><br>
       <input type="text" name="title" id="title" placeholder="Input value" required>
       <br><br>
 
-      <label for="description"><strong>Description</strong></label><br>
+      <label class="description" for="description"><strong>Description</strong></label><br>
       <textarea name="description" id="description"
                 placeholder="Text area content" required
                 cols="30" rows="5"></textarea>
         <br><br>
 
-      <label for="video"><strong>Video</strong></label><br>
+      <label class="videoFileLabel" for="video"><strong>Video</strong></label><br>
       <input type="file" name="video" id="video">
       <br><br>
 
-      <select name="choose" id="choose">
+      <select class="collectionSelector" name="choose" id="choose">
         <option value="coll1">Collection 1</option>
         <option value="coll2">Collection 2</option>
         <option value="coll3">Collection 3</option>
       </select>
       <br><br>
 
-      <label for="audience"></label>
+      <label class="audience" for="audience">Audience</label><br>
       <input type="radio" name="audience" id="audience">
-      <label for="audience">Public</label>
+      <label class="publicLabel" for="audience">Public</label>
       <input type="radio" name="audience" id="audience">
-      <label for="audience">Private</label>
+      <label class="privateAudience" for="audience">Private</label>
       <br><br><br>
 
-      <button>Upload Video</button>
+      <button class="uploadButton">Upload Video</button>
     </th>
   </tr>
 </table>

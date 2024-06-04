@@ -26,9 +26,11 @@ nav {
 flex-direction: column;
 }
 
-.homeButton {
+.homeButton, .collection1Button, .collection2Button, .collection3Button, .uploadForm {
 top: 0;
 z-index: 10;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
 }
 
 iframe {
@@ -56,6 +58,7 @@ h3 {
   /* position: relative; */
   text-align: left;
   padding-left: 100px;
+
 }
 
 .formTitle {
@@ -89,4 +92,21 @@ h3 {
 h1  {
   font-family: Impact, fantasy;
   font-variant: small-caps;
+}
+
+.uploadButton {
+  background-color: red;
+  width: 100%;
+  height: 30px;
+  color: white;
+  font-family: Impact, fantasy;
+  border-radius: 8px;
+}
+
+.videoTitle, .description, .videoFileLabel, .audience, .publicLabel, .privateAudience {
+  font-family: Gill Sans, sans-serif;
+}
+
+.featuredHeadline {
+  margin-left: 0px;
 }
