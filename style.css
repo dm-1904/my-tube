@@ -61,6 +61,7 @@ h3 {
 .formTitle {
   text-align: center;
   margin-left: 0px;
+  font-family: Didot, serif;
 }
 
 .searchBar {
@@ -83,4 +84,9 @@ h3 {
 
 .searchBar::placeholder {
   color: grey;
+}
+
+h1  {
+  font-family: Impact, fantasy;
+  font-variant: small-caps;
 }
