@@ -38,12 +38,6 @@ iframe {
 
 }
 
-/* table th {
-  border: 5px solid white;
-} */
-
-
-
 th {
   min-width: 100px;
   max-width: 562px;
@@ -55,7 +49,6 @@ h3 {
 }
 
 .form {
-  /* position: relative; */
   text-align: left;
   padding-left: 100px;
 
@@ -109,4 +102,98 @@ h1  {
 
 .featuredHeadline {
   margin-left: 0px;
+}
+
+p {
+  text-align: left;
+}
+
+.v1pStyle, .v2pStyle, .v3pStyle, .v4pStyle, .v5pStyle {
+  color: lightgray;
+  font-weight: 10;
+  font-size: small;
+}
+
+.v1pStyle {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.v2pStyle {
+  font-family: Luminari, fantasy;
+}
+
+.v3pStyle {
+  font-family: Marker Felt, fantasy;
+}
+
+.v4pStyle {
+  font-family: Trattatello, fantasy;
+}
+
+.v5pStyle {
+  font-family: Arial, sans-serif;
+}
+
+.v6pStyle {
+  font-family: Helvetica, sans-serif;
+}
+
+.v7pStyle {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.v8pStyle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.v9pStyle {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.v10pStyle {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.v11pStyle {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.v12pStyle {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.v13pStyle {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.v14pStyle {
+  font-family: fantasy;
+}
+
+.v15pStyle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.v16pStyle {
+  font-family: cursive;
+}
+
+
+.v17pStyle {
+  font-family: monospace;
+}
+
+
+.v18pStyle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.videoLink {
+  font-family: fantasy;
+  text-decoration: none;
+}
+
+footer {
+  font-family: Luminari, fantasy;
 }
